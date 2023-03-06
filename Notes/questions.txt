@@ -1,0 +1,5 @@
+floating point precisions
+kind
+c interoperable
+loops in fortran
+do concurrent loop
