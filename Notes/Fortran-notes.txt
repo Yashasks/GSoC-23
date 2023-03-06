@@ -13,3 +13,45 @@ variable_type :: variable_name
 
 *** good practice is to declare in seperate line and assign value in seperate line
 
+gfortran hello.f90 -o hello
+
+types of variables:-
+integer
+real
+character
+boolean
+complex
+
+syntax:-
+
+variable_type :: variable_name
+
+*** good practice is to declare in seperate line and assign value in seperate line
+
+logical :: isTrue = .true. or .false.
+
+print *, "....", 
+
+****Arrays in Fortran are one-based by default; this means that the first element along any dimension is at index 1
+
+one based indexing -> 1 to n
+
+string concatenation:-
+
+new_string = old_string//' '//additional_string
+
+conditional statements:-
+
+if condition then
+	statements
+end if
+
+
+do i = 1, 10, 2
+	print *, i
+end do
+
+do while(condition)
+	statement
+end do
+
