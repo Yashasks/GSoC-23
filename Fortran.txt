@@ -1,0 +1,58 @@
+variables should come up at the beginning of the code
+implicit none meaning??
+
+program fortrantut
+	implicit none
+	character*20 :: name
+	print *, "What is your name"
+	read *, name
+	print *, "Hello", name
+end program fortrantut
+
+
+variables and data types:-
+vars are case insensitive
+starts with letter
+real, double, integer, logical, complex
+
+dtype :: name = ___
+huge(no)
+tiny(no)
+
+file operation ??
+program deno
+open(unit=8, file='...')
+read(8,*) b,d
+
+end program
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
